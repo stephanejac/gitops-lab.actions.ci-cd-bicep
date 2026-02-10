@@ -50,7 +50,7 @@ jobs:
         name: templates_artifact
         path: ./templates/* 
         retention-days: 30
-   RG-Job:
+  RG-Job:
      runs-on: ubuntu-latest
      needs: [Build-Job]
      steps:
